@@ -27,7 +27,14 @@ TBD
 
 Suppose the directory of the Deepword is `$PDIR`.
 
-Suppose the directory that contains this file is `CDIR`.
+Suppose the directory that contains this file is `$CDIR`.
+
+### Sample data and games
+
+We provide sample data and games in the repository. Notice that our raw data and games are up to 10GB, so we suggest users generate their training data with the Deepword repository.
+
+We will figure out how to share all data and games later. Before that, you can request full data and games through email (yinxusen AT gmail DOT com).
+
 
 ### Train CNN student model
 
