@@ -7,7 +7,7 @@
 ╚═════╝ ╚══════╝╚══════╝╚═╝      ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═════╝ 
 ```
 
-# Learning to Generalize for Sequential Decision Making
+# [Learning to Generalize for Sequential Decision Making](https://arxiv.org/abs/2010.02229)
 
 ## Abstract and Background
 > We consider problems of making sequences of decisions to accomplish tasks,  interacting via the medium of language. These problems are often tackled with reinforcement learning approaches. We find that these models do not generalize well when applied to novel task domains. However, the large amount of computation necessary to adequately train and explore the search space of sequential decision making, under a reinforcement learning paradigm, precludes the inclusion of large contextualized language models, which might otherwise enable the desired generalization ability. We introduce a teacher-student imitation learning methodology and a means of converting a reinforcement learning model into a natural language understanding model. Together, these methodologies enable the introduction of contextualized language models into the sequential decision making problem space. We show that models can learn faster and generalize more, leveraging both the imitation learning and the reformulation. Our models exceed teacher performance on various held-out decision problems, by up to 7\% on in-domain problems and 24\% on out-of-domain problems. 
@@ -17,7 +17,14 @@ Sequential decision-making tasks that are mostly solved by reinforcement learnin
 ## Cite our paper
 
 ```
-TBD
+@misc{yin2020learning,
+      title={Learning to Generalize for Sequential Decision Making}, 
+      author={Xusen Yin and Ralph Weischedel and Jonathan May},
+      year={2020},
+      eprint={2010.02229},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ## Experiments
